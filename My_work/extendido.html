@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es-Mx">
+    <head>
+        <meta charset="utf-8">
+        <title>CV Extendido</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/c0424d8c9c.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <!--Menu de navegación-->
+        <nav>
+            <ul>
+                <li><a href="../Mastermind/index.html">Inicio</a></li>
+                <li id="logo"><img src="../Mastermind/img/keyboard_icon.png" alt="Logo png" height="50"></li>
+                <li><a href="./extendido.html">Extendido</a></li>
+            </ul>
+        </nav>
+        <article>
+            <!--Bloque Titulo-->
+            <section id="titulo">
+                <h1>CV Extendido</h1>
+            </section>
+            <!--Fin Bloque Titulo-->
+            <!--Sección Datos personales-->
+            <section id="datos_personales">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/IbAuuxBFwoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div>
+                    <h2>Datos personales</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="4">Mi nombre</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><i class="fa-solid fa-user"></i> <strong>Edad</strong></td>
+                                <td>1000000</td>
+                                <td><i class="fa-solid fa-city"></i> <strong>Ciudad residencia</strong></td>
+                                <td>Narnia</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa-solid fa-school"></i> <strong>Estudios</strong></td>
+                                <td>No fui al prescolar</td>
+                                <td><i class="fa-solid fa-landmark"></i> <strong>Especialidad</strong></td>
+                                <td>Dormir</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa-solid fa-music"></i> <strong>Afición</strong></td>
+                                <td>Comer</td>
+                                <td><i class="fa-solid fa-basketball"></i> <strong>Deporte</strong></td>
+                                <td>Dormir la siesta</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <!--Fin Sección Datos personales-->
+            <!--Sección Educación-->
+            <section id="educacion">
+                <h2>Educación</h2>
+                <div class="tarjetas">
+                    <div class="card">
+                        <img src="../Mastermind/img/escuela.png" alt="escuela 1" height="200">
+                        <a href="https://www.harvard.edu/" target="_blank"><h3 class="escuela">Escuela 1</h3></a>
+                        <p>2000-3000 Especialidad: <cite>Aprender</cite></p>
+                    </div>
+                    <div class="card">
+                        <img src="../Mastermind/img/escuela.png" alt="escuela 2" height="200">
+                        <a href="https://www.harvard.edu/" target="_blank"><h3 class="escuela">Escuela 2</h3></a>
+                        <p>2000-3000 Especialidad: <cite>Aprender</cite></p>
+                    </div>
+                    <div class="card">
+                        <img src="../Mastermind/img/escuela.png" alt="escuela 3" height="200">
+                        <a href="https://www.harvard.edu/" target="_blank"><h3 class="escuela">Escuela 3</h3></a>
+                        <p>2000-3000 Especialidad: <cite>Aprender</cite></p>
+                    </div>
+                </div>
+            </section>
+            <!--Fin Sección Educación-->
+            <!--Bloque Experiencia profesional-->
+            <section id="experiencia">
+                <h2>Experiencia profecional</h2>
+                <div>
+                    <h3>Creación de un videojuego</h3>
+                    <ul id="videojuego">
+                        <li><i class="fa-solid fa-gamepad"></i></li>
+                        <li><i class="fa-solid fa-play"></i></li>
+                        <li><i class="fa-brands fa-python"></i></li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit dignissimos excepturi quam accusantium eum id ratione, incidunt voluptatibus eaque eligendi dolor! Corporis accusamus mollitia id consectetur nesciunt. Adipisci, in libero.</p>
+                </div>
+            </section>
+            <!--Fin Bloque Experiencia profesional-->
+            <!--Bloque Comentarios-->
+            <section id="comentarios">
+                <h2>Enviar comentario</h2>
+                <form action="#">
+                    <div class="itemform">
+                        <label for=""><strong>Nombre</strong></label>
+                        <input type="text" id="nombre" name="nombre" minlength="2" maxlength="64" size="32" required>
+                    </div>
+                    <div class="itemform">
+                        <label for=""><strong>Prioridad</strong></label>
+                        <select name="prioridad" id="prioridad" autocomplete="off" required>
+                            <option value="elige">--Elige una opción--</option>
+                            <option value="baja">Baja</option>
+                            <option value="media">Media</option>
+                            <option value="alta">Alta</option>
+                        </select>
+                    </div>
+                    <div class="itemform">
+                        <label for=""><strong>Mensaje</strong></label>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="5"></textarea>
+                    </div>
+                    <div class="itemform">
+                        <input type="submit" name="" id="" value="ENVIAR">
+                    </div>
+                </form>
+            </section>
+            <!--Fin Bloque Experiencia profesional-->
+        </article>
+        <footer></footer>
+    </body>
+</html>

@@ -1,0 +1,135 @@
+/*Definiciones de selectores*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #fff;
+    color: #222;
+    font: 200 14px 'Poppins', sans-serif;
+}
+h1{
+    font-size: 42px;
+    font-weight: 400;
+}
+h2{
+    font-size: 36px;
+    font-weight: 300;
+}
+h3{
+    color: orange;
+}
+section{
+    padding: 10px 100px 10px 100px;
+}
+table{
+    margin-right: 10px;
+    border-spacing: 10px;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: #222;
+    border-bottom: 1px solid white;
+    padding-top: 10px;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li{
+    padding-top: 16px;
+    padding-right: 10px;
+}
+li{
+    float: left;
+    margin-right: 5px;
+}
+a{
+    text-decoration: none;
+}
+a:any-link{
+    color: white;
+}
+a:-moz-any-link{
+    color: white;
+}
+a:-webkit-any-link{
+    color: white;
+}
+a:hover{
+    color: orange;
+}
+/*Definiiones de clases y ids*/
+#logo{
+    padding-top: 0px;
+}
+#titulo{
+    padding-top: 100px;
+}
+#datos_personales{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    column-gap: 10px;
+}
+#datos_personales div h2{
+    text-align: center;
+}
+#educacion{
+    background-color: #222;
+    color: white;
+}
+#experiencia{
+    background-color: #222;
+    color: white;
+    border-top: 1px solid white;
+}
+#videojuego{
+    list-style: none;
+}
+/*Tarjetas*/
+.tarjetas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-top: 15px;
+}
+.card{
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.escuela, .card p{
+    color: #222;
+}
+.escuela:hover{
+    color: orange;
+}
+/*Comentarios*/
+#comentarios{
+    background-color: orange;
+    color: #222;
+}
+.itemform{
+    display: grid;
+    grid-template-columns: 150px 350px;
+    justify-content: right;
+    margin: 10px 0 5px 0;
+    border-radius: 5px;
+}
+.itemform input, .itemform textarea, .itemform select{
+    border-radius: 5px;
+    border: 1px solid white;
+}
+input[type="submit"]{
+    background-color: #222;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    grid-column: 2/3;
+    justify-self: end;
+    border: none;
+}
